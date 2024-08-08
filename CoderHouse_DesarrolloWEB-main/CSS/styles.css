@@ -1,0 +1,62 @@
+/* propiedades para texto*/
+/* https://paletadecolores.com.ar/ pagina para ver paletas de colores ya armadas con los codigos*/
+/* https://www.frontendmentor.io/home */
+/* https://fonts.google.com/ para buscar fuentes, tipografias */
+
+
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+   
+    /* Ajustar la imagen de fondo */
+    background-image: url("../img/Background.jpg");
+    background-size: cover; /* Ajusta la imagen para que cubra el área del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen de fondo quede fija al hacer scroll */
+    
+    /* Tamaño del contenedor */
+    height: 100vh; /* 100% de la altura de la ventana gráfica */
+    width: 100%; /* 100% del ancho del contenedor */
+    
+    color: rgb(5, 159, 170);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        
+}
+
+h1{
+    font-size: 15rem;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 5rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.bajoHeader{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.imgFooter{
+    height: 4rem;
+    width: 4rem;
+   
+}
+
+.imgPelicula{
+    height: 25rem;
+    width: 17rem;
+}
